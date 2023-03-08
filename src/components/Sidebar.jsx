@@ -3,7 +3,6 @@ import '../styles/components/sidebar.sass'
 
 
 
-
 export default function Sidebar() {
     return <aside id="sidebar">
         <img src={Avatar} alt="Eudis Alves"/>
