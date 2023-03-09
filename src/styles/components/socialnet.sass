@@ -1,0 +1,21 @@
+@use "../../styles/components/variables"
+@use '../mixins'
+
+#socialnet 
+    @include mixins.center
+    gap: 1rem
+    margin: 1rem 0
+
+    .social-btn
+        padding: .6rem
+        background-color: variables.$bg-color-secundary 
+        border-radius: variables.$card-border-raius 
+        color: #333 
+        font-size: 1.3rem
+        @include mixins.center 
+
+        #linkedin
+            color: #0072b1
+
+        #github
+            color: #111
