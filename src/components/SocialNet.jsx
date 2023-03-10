@@ -1,12 +1,12 @@
 import { FaLinkedinIN, FaGithub } from 'react-icons/fa'
-import "../styles/components/socialnet.sass"
+import '../styles/components/socialnet.sass'
 
 const socialNet = [
     { name:"linkedin", icon: <FaLinkedinIN /> },
     { name: "github", icon: <FaGithub /> },
 ];
 
-const SocialNet = () => {
+export default function SocialNet() {
     return (
         <section id="social-net">
             {socialNet.map((network) => (
@@ -17,5 +17,3 @@ const SocialNet = () => {
         </section>
     )
 }
-
-export default SocialNet;

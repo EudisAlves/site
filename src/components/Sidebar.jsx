@@ -1,9 +1,10 @@
-import SocialNet from './SocialNet';
+
 
 
 import Avatar from '../img/Eudis.jpg';
 
 import '../styles/components/sidebar.sass';
+import SocialNet from './SocialNet';
 
 
 export default function Sidebar() {
@@ -12,6 +13,8 @@ export default function Sidebar() {
         <p className="title">Desenvolvedor</p>
         <SocialNet />
         <p>Informações de contatos</p>
-        <a href="#" className="btn">Download Currículo</a>
+        <a href="#" className="btn">
+            Download Currículo
+        </a>
     </aside>
 }
