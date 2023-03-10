@@ -1,18 +1,19 @@
-
-
-
+import Information from './information';
 import Avatar from '../img/Eudis.jpg';
+import SocialNet from './SocialNet';
 
 import '../styles/components/sidebar.sass';
-import SocialNet from './SocialNet';
+
 
 
 export default function Sidebar() {
     return <aside id="sidebar">
         <img src={Avatar} alt="Eudis Alves"/>
         <p className="title">Desenvolvedor</p>
+
         <SocialNet />
-        <p>Informações de contatos</p>
+        <Information />
+                
         <a href="#" className="btn">
             Download Currículo
         </a>
