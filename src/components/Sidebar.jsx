@@ -1,4 +1,4 @@
-import Information from './information';
+import Information from './Information';
 import Avatar from '../img/Eudis.jpg';
 import SocialNet from './SocialNet';
 
@@ -13,7 +13,7 @@ export default function Sidebar() {
 
         <SocialNet />
         <Information />
-                
+
         <a href="#" className="btn">
             Download Currículo
         </a>
